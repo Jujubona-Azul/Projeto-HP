@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Início do documento HTML, definido para o idioma português do Brasil -->
+<head> <!-- Cabeçalho do documento, contém metadados e links -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 (compatível com acentos) -->
+  <title>Harry Potter</title> <!-- Título da página exibido na aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Importa um arquivo CSS externo para estilizar a página -->
+</head>
+<body> <!-- Início do corpo da página, onde o conteúdo visível é inserido -->
+  <header class="header-main"> <!-- Cabeçalho principal da página com classe para estilização -->
+    <h1>Harry Potter</h1> <!-- Título principal da página -->
+    <nav class="menu"> <!-- Menu de navegação com classe para estilização -->
+      <a href="#">Início</a> <!-- Link de navegação (atualmente sem destino definido) -->
+      <a href="#mobilidade">Personagens</a> <!-- Link âncora que leva à seção de mobilidade -->
+      <a href="#sustentabilidade">Magias</a> <!-- Link âncora que leva à seção de sustentabilidade -->
+    </nav>
+  </header>
+
+  <main> <!-- Conteúdo principal da página -->
+    <section class="intro"> <!-- Seção introdutória com classe para estilização -->
+      <h2>Aprenda um pouco mais sobre o universo:</h2> Subtítulo da seção
+      <p>Harry Potter é uma série de filmes britânico-americana baseada na série de livros homônima da escritora J. K. Rowling. A série é distribuída pela Warner Bros. e consiste em oito filmes, iniciando com Harry Potter e a Pedra Filosofal (2001) e finalizando com Harry Potter e as Relíquias da Morte - Parte 2 (2011).</p> <!-- Parágrafo com conteúdo descritivo -->
+      <p>Todos os filmes se encontram na lista dos 100 filmes de maior bilheteria da história (em dólares e sem ajuste de inflação), sendo Harry Potter e as Relíquias da Morte - Parte 2 o filme da franquia que mais arrecadou nas bilheterias, ocupando o décimo terceiro no ranking mundial. As gravações iniciaram na Califórnia, nos estúdios de Hollywood. Apesar da escritora ser britânica, a saga cinematográfica de Harry Potter foi completamente produzida por Hollywood, com edições feitas na Califórnia e efeitos visuais produzidos pela indústria hollywoodiana.
+
+A série foi produzida por David Heyman e tem Daniel Radcliffe, Rupert Grint e Emma Watson como os três personagens principais, Harry Potter, Rony Weasley e Hermione Granger, respectivamente, além de Eddie Redmayne que é o protagonista de Animais Fantásticos e Onde Habitam como Newt Scammander. Quatro diretores trabalharam na série: Chris Columbus, Alfonso Cuarón, Mike Newell e David Yates. A produção levou mais de dez anos para ser concluída, com o Arco de história principal seguindo a busca de Harry Potter para superar seu conflito com Lord Voldemort.</p> <!-- Outro parágrafo complementar -->
+    </section>
+
+    <div class="gallery"> <!-- Container com classe para organizar uma galeria de seções -->
+      <section id="mobilidade"> <!-- Seção com ID para âncora, sobre mobilidade urbana -->
+        <h3>Alguns dos feitiços:</h3> <!-- Título da subseção -->
+        <p>Expelliarmus: Um feitiço de desarmamento, usado para desarmar o oponente.
+Lumos e Nox: Lumos acende a ponta da varinha com luz, enquanto Nox a apaga.
+Wingardium Leviosa: Faz objetos levitarem.
+Alohomora: Destranca portas e fechaduras.
+Petrificus Totalus: Paralisa o corpo do oponente.
+Estupefaça: Desarma e atordoa o oponente.
+Expecto Patronum: Cria um protetor mágico, um patrono.
+Avada Kedavra: A Maldição da Morte, que mata instantaneamente a vítima.
+Imperius: Uma das Maldições Imperdoáveis, que permite controlar a mente da vítima.
+Crucio: Uma das Maldições Imperdoáveis, que causa dor extrema na vítima.</p> <!-- Parágrafo descritivo da imagem -->
+      </section>
+
+      <section id="sustentabilidade"> <!-- Seção com ID para âncora, sobre sustentabilidade urbana -->
+        <h3>Alguns dos personagen:</h3> <!-- Título da subseção -->
+        <img src="images/cidade2.jpg" alt="Parque urbano com árvores e bancos"> <!-- Imagem ilustrativa com texto alternativo -->
+        <p>Harry Potter, Hermione Granger, Rony Weasley, Albus Dumbledore</p> <!-- Parágrafo descritivo da imagem -->
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer-main"> <!-- Rodapé da página com classe para estilização -->
+    <p>2025 Seu Nome. Conecte-se: <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p> <!-- Texto de rodapé com links para redes sociais -->
+  </footer>
+</body>
+</html>
